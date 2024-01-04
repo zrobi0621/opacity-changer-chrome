@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Opacity Control</title>
+  <style>
+    body {
+      width: 200px;
+      padding: 10px;
+    }
+
+    input[type="range"] {
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <label for="opacityRange">Opacity:</label>
+  <input type="range" id="opacityRange" min="0" max="1" step="0.1" value="1" />
+  <p id="opacityValue">1</p>
+
+  <script src="popup.js"></script>
+</body>
+</html>
